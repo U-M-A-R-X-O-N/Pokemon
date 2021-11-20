@@ -1,0 +1,105 @@
+/* * {
+  box-sizing: border-box;
+}
+
+ body {
+  background-image: linear-gradient(black, red, black);
+  margin: 0;
+  padding: 0;
+}
+
+ .container {
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.block__header {
+  font-size: 50px;
+  color: yellow;
+  display: flex;
+}
+
+.block__header::before {
+  content: "";
+  background: url(../img/pokemon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  right: 80px;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+
+.block__header::after {
+  content: "";
+  background: url(../img/pokemon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  left: 100px;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+
+.block__header::before {
+  content: "";
+  position: relative;
+  background-image: url(../img/pokemon.png);
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+
+.block__ordered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.block__list {
+  padding: 0;
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  background-color: wheat;
+  flex-direction: column;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  border: 5px solid gray;
+  transition: all 0.3s ease;
+}
+
+.block__list:hover {
+  background-color: white;
+}
+
+.block__image {
+  display: block;
+}
+
+.block__header2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.block__paragraph {
+  font-size: 22px;
+} */
